@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    Pragmatic JavaScript
+    Chapter 1
+    Programming Assignment
+
+    Author: Christopher Phan
+    Date: 11/1/25
+    Filename:
+  -->
+    <title>Roleplay Character Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <form id="characterForm">
+        <label for="characterName">Character Name:</label><br />
+        <input type="text" id="characterName" name="characterName" required /><br />
+        <label for="characterGender">Character Gender:</label><br />
+        <select id="characterGender" name="characterGender" required>
+          <option value="">Select...</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option></select>
+          <br />
+        <label for="characterClass">Character Class:</label><br />
+        <select id="characterClass" name="characterClass" required>
+          <option value="">Select...</option>
+          <option value="warrior">Warrior</option>
+          <option value="mage">Mage</option>
+          <option value="rogue">Rogue</option></select>
+          <br />
+        <button id="generateCharacter" type="submit">Create Character</button>
+      </form>
+      <div id="characterInfo">
+        <h2>Your Character</h2>
+        <p>Name: <span id="displayCharName"></span></p>
+        <p>Gender: <span id="displayCharGender"></span></p>
+        <p>Class: <span id="displayCharClass"></span></p>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
