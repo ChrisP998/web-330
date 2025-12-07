@@ -1,0 +1,38 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author:
+  Date:
+  Filename:
+*/
+
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #6e6e6e;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.chef-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
